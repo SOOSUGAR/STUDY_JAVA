@@ -1,0 +1,15 @@
+import java.util.HashMap;
+
+public class ProgrammingTest05 {
+	public static void main(String[] args) {
+		String data = "우영우-97,이준호-55,정명석-93,한수현-88,권민우-75";
+		
+		String[] student = data.split(",");
+		System.out.println(student.toString());
+		
+		HashMap<String, Integer> map = new HashMap<>();
+		
+		
+	}
+
+}

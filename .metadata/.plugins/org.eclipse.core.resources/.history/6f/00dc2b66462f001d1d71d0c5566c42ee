@@ -1,0 +1,53 @@
+
+class Student {
+	private String name;
+	private int kor;
+	private int eng;
+	private int mat;
+	private int sum;
+	private double ave;
+	
+	public Student(String name, int kor, int eng, int mat, int sum, double ave) {
+		this.name = name;
+		this.kor = kor;
+		this.eng = eng;
+		this.mat = mat;
+		this.sum = sum;
+		this.ave = ave;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public int getKor() {
+		return kor;
+	}
+	
+	public int getEng() {
+		return eng;
+	}
+	
+	public int getMat() {
+		return mat;
+	}
+	
+	public int getSum() {
+		return (kor + eng + mat);
+	}
+	
+	public double getAve() {
+		return ((double)sum / 3);
+	}
+	
+}
+
+
+public class ProgrammingTest04 {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+public class ProgrammingTest01 {
+	public static void main(String[] args) {
+		String data = "동백,93,84,77,카멜리아";
+		
+		String data1 = data + ",옹산";
+		System.out.println(data1);
+		
+		data1 = data1.replace(",", "/");
+		System.out.println(data1);
+		
+		System.out.println(data1.contains("카멜리아"));
+		
+		String data4 = data1.substring(3, 12); // 11번부터 끝까지
+		System.out.println(data4);
+		
+	}
+
+}

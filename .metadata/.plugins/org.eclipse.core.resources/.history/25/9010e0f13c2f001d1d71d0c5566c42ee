@@ -1,0 +1,14 @@
+public class ProgrammingTest01 {
+	public static void main(String[] args) {
+		String data = "µ¿¹é,93,84,77,Ä«¸á¸®¾Æ";
+		
+		String data1 = data + ",¿Ë»ê";
+		System.out.println(data1);
+		
+		data1 = data1.replace(",", "/");
+		System.out.println(data1);
+		
+		System.out.println(data1.contains("Ä«¸á¸®¾Æ"));
+	}
+
+}

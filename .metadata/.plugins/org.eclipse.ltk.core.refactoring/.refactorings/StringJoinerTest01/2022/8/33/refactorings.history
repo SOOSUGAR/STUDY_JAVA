@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;StringJoinerTesr01&apos; to &apos;StringJoinerTest01&apos;&#x0D;&#x0A;- Original project: &apos;StringJoinerTest01&apos;&#x0D;&#x0A;- Original element: &apos;StringJoinerTesr01&apos;&#x0D;&#x0A;- Renamed element: &apos;StringJoinerTest01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;StringJoinerTesr01&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{StringJoinerTesr01.java[StringJoinerTesr01" matchStrategy="1" name="StringJoinerTest01" qualified="false" references="true" similarDeclarations="false" stamp="1660276846497" textual="false" version="1.0"/>
+</session>

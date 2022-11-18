@@ -1,0 +1,21 @@
+
+class Student {
+	private String name;
+	private int kor;
+	private int eng;
+	private int mat;
+	private int sum;
+	private double ave;
+	
+	
+}
+
+
+public class ProgrammingTest04 {
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
